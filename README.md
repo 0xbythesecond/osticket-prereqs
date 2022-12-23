@@ -86,4 +86,16 @@ Fix any failures in the installation by going to Google Drive to <a href="https:
     <p align="center">
     <img src="https://i.imgur.com/wcCxx5C.png" height="45%" width="45%" alt="os ticket installer"/>
     </p>
+    </br>
+<p> Next we'll go back to IIS, sites -> Default -> osTicket 2. Double-click PHP Manager 3. Click “Enable or disable an extension” 1. Enable: php_imap.dll 2. Enable: php_intl.dll 3. Enable: php_opcache.dll -
+ <p align="center"<img src="https://i.imgur.com/YVjKOMp.png" height="50%" width="50%" alt="php manager"/>
+ </p>
+ </br>
+ <p align="center">
+ <img src="https://i.imgur.com/elGuTsd.png" height="45%" width="45%" alt="php extension enabled"/>
+ </p>
+ </br>
+ <p align="center">
+ <img src="https://i.imgur.com/cMtCuaA.png" height="45%" width="45%" alt="php extension enabled"/>
+ </p>
                                                                                  
