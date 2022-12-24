@@ -163,11 +163,23 @@ Then add new permissions for everyone and give Full Control.
 <p align="center">
  <img src="https://i.imgur.com/V3GSvvT.png" height="50%" width="50%" alt="congratulations of completion for osTicket"/>
 </p>
- <p> Results below are from of choosing <u> http://localhhost/osTicket/scp </u> for "Your Staff Control Panel:" </p>
+ <p> Results below are from of choosing for <u>"Your Staff Control Panel"</u> or <u>"Your osTicket URL:"</u> </p>
  <p align="center"><img src="https://i.imgur.com/LhTgI92.png" height="50%" width="50%" alt="available links to choose help desk or admin"/>
  </p>
  <p align="center">
  <img src="https://i.imgur.com/jNkPZNC.jpg" height="65%" width="65%" alt="Admin login for osTicket"/>
 </p>
+<p> "Your osTicket URL" will direct us to the "End User" Portal where Users can submit tickets for assistance from the help desk.
+ <p align="center">
+  <img src="https://i.imgur.com/ErvbCg6.png" height="65%" width="65%" alt="End user login page to open/check ticket status"/>
+  </p>
+  <p> - <i>Clean up</i>
+    <ol>
+    <li> Delete: C:\inetpub\wwwroot\osTicket\setup</li>
+    <li> Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
+    <li><i>Login to the osTicket Admin Panel</i> ([http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php))
+  </p>
+
+
 
                                                                                  
