@@ -49,11 +49,11 @@ Next, Install Web Platform Installer by doing a search for the Control Panel -->
 <p align="center">
 <img src="https://i.imgur.com/XYQQlpa.png" height="80%" width="80%" alt="enable IIS"/>
 </p>
-</br>
+<br/>
 <p>Now we can download and install Web Platform Installers. Web Platform Installers (WebPI) provides a simplified installation workflow for installing common open source web applications and web platform technologies.</p>
 <p align="center">
 <img src="https://i.imgur.com/59FS3S4.png" height="65%" width="65%" alt="download WebPI"/>
-</br>
+<br/>
 <p> Once WebPI is installed, we can now add MySQL 5.5 database, PHP 5.6.31, and the various verisons of between PHP (x86) 7.0 and 7.3.</p>
 <p align="center">
 <img src="https://i.imgur.com/SwHYmt7.png" height="650%" width="65%" alt="image of add MySql"/>
@@ -62,7 +62,7 @@ Next, Install Web Platform Installer by doing a search for the Control Panel -->
 <p align="center">
 <img src="https://i.imgur.com/DwQqpH8.png" height="65%" width="65%" alt="install PHP"/>
 </p>
-</br>
+<br/>
 <p>MySQL 5.5 will require a name and password, root and Password1 respectively when you try to install. Make note of the name / password in a text file as you will need it again later on in the installation process.</p>
 <p align="center">
 <img src="https://i.imgur.com/IIFCRPG.png" height="65%" width="65%" alt="password request"/>
@@ -90,20 +90,20 @@ Fix any failures in the installation by going to Google Drive to <a href="https:
 <p> Next we'll go back to IIS, sites -> Default -> osTicket 2. Double-click PHP Manager 3. Click “Enable or disable an extension” 1. Enable: php_imap.dll 2. Enable: php_intl.dll 3. Enable: php_opcache.dll -
  <p align="center"<img src="https://i.imgur.com/YVjKOMp.png" height="50%" width="50%" alt="php manager"/>
  </p>
- </br>
+ <br/>
  <p align="center">
  <img src="https://i.imgur.com/elGuTsd.png" height="45%" width="45%" alt="php extension enabled"/>
  </p>
- </br>
+ <br/>
  <p align="center">
  <img src="https://i.imgur.com/cMtCuaA.png" height="45%" width="45%" alt="php extension enabled"/>
  </p>
- </br>
+ <br/>
 Refresh the osTicket site in your browser to see what has changed after enabling the PHP extensions  
 <p align="center">
 <img src="https://i.imgur.com/PPNziV5.png" height="45%" width="45%" alt="refreshed osticket installer"/>
  </p>
- </br>
+ <br/>
 Rename: From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php --->	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
  <p align="center">
  <img src="https://i.imgur.com/u0bCrDC.png" height="50%" width="50%" alt="ost-sample image"/>
@@ -120,7 +120,7 @@ Assign Permissions: ost-config.php
  <p align="center">
  <img src="https://i.imgur.com/rKhcHkW.png" height="50%" width="50%" alt="change permissions"/>
 </p>
-</br>
+<br/>
 <p align="center">
 <img src="https://i.imgur.com/IxpkEaE.png" height="50%" width="50%" alt="disable inheritance"/>
  </p>
@@ -146,10 +146,13 @@ Then add new permissions for everyone and give Full Control.
 <li>Create a database called “osTicket”</li>
  </ol>
  <p align="center">
- <img src="https://i.imgur.com/D2QfMEb.png"  height="50%" width="50%" alt="create HeidiSql session"/> </p>
+ <img src="https://i.imgur.com/D2QfMEb.png"  height="50%" width="50%" alt="create HeidiSql session"/> 
+ </p>
  <p align="center">
- <img src="https://i.imgur.com/3bMHP2K.png" height="50%" width="50%" alt="create database HeidiSql"/> </p>
- <p>Created database for "osTicket":</p>
+ <img src="https://i.imgur.com/3bMHP2K.png" height="50%" width="50%" alt="create database HeidiSql"/> 
+ </p>
+ <p>Created database for "osTicket":
+ </p>
  <p align="center">
  <img src="https://i.imgur.com/mLg4tOl.png" height="50%" width="50%" alt="create data base osTicket"/> 
 </p>
@@ -189,6 +192,7 @@ Then add new permissions for everyone and give Full Control.
  <p align="center">
  <img src="https://i.imgur.com/R11rIMd.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
  </p>
+ <br/>
  
  <p><i><b>💥Well, That's All Folks and Congratulations On The Completion of This Lab! 😁</i></b></p>
 
