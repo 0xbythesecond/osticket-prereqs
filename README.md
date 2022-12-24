@@ -194,7 +194,8 @@ Then add new permissions for everyone and give Full Control.
  </p>
  <br/>
  
- <p><i><b>💥Well, That's All Folks and Congratulations On The Completion of This Lab! 😁</i></b></p>
+ <p align="center"><i><b>💥Well, That's All Folks and Congratulations On The Completion of This Lab! 😁</i></b></p>
+ <p align="center"><i><b>📝 “You don’ have to see the whole staircase. Just take the first step.”📝</p></i></b>
 
 
 
