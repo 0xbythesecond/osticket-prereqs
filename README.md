@@ -176,9 +176,19 @@ Then add new permissions for everyone and give Full Control.
   <p> - <i>Clean up</i>
     <ol>
     <li> Delete: C:\inetpub\wwwroot\osTicket\setup</li>
-    <li> Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li>
+    <li> Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li> 
     <li><i>Login to the osTicket Admin Panel</i> ([http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php))
   </p>
+  <p align="center">
+ <img src="https://i.imgur.com/XGHz3lx.png" height="65%" width="65%" alt="delete setup folder"/>
+ </p>
+ <p> Set Permission to "Read" only can be acheived by choosing to right-click on 'ost-config.php' --> select properties --> select the 'Security' tab near the top --> then click the 'Advanced' button (not pictured below) --> once advanced settings is selecting, you can now select the 'Everyone' principle and now we can select to choose 'Read' only as the preferred permission(s)</p>
+ <p align="center">
+ <img src="https://i.imgur.com/AXCIeQN.png"  height="65%" width="65%" alt="read-only permissions"/>
+ </p>
+ <p align="center">
+ <img src="https://i.imgur.com/R11rIMd.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
+ </p>
 
 
 
