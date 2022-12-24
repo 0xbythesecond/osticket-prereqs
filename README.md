@@ -189,6 +189,8 @@ Then add new permissions for everyone and give Full Control.
  <p align="center">
  <img src="https://i.imgur.com/R11rIMd.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
  </p>
+ 
+ <p><i><b>💥Well, That's All Folks and Congratulations On The Completion of This Lab! 😁</i></b></p>
 
 
 
