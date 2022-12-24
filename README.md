@@ -22,6 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install Web Platform Installer
 - Install osTicket v1.15.8
 - Download and Install HeidiSQL
+- Created database for "osTicket
+- Clean up 
+- Change File Permissions
 
 <h2>Installation Steps</h2>
 <p>
