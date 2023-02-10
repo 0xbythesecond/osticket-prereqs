@@ -188,7 +188,7 @@ Then add new permissions for everyone and give Full Control.
   <p align="center">
  <img src="https://i.imgur.com/XGHz3lx.png" height="65%" width="65%" alt="delete setup folder"/>
  </p>
- <p> Set Permission to "Read" only can be acheived by choosing to right-click on 'ost-config.php' --> select properties --> select the 'Security' tab near the top --> then click the 'Advanced' button (not pictured below) --> once advanced settings is selecting, you can now select the 'Everyone' principle and now we can select to choose 'Read' only as the preferred permission(s)</p>
+ <p> Set Permission to "Read" only can be acheived by choosing to right-click on 'ost-config.php' --> select properties --> select the 'Security' tab near the top --> then click the 'Advanced' button (not pictured below) --> once advanced settings is selected, you can now select the 'Everyone' principle and now we can select to choose 'Read' only as the preferred permission(s)</p>
  <p align="center">
  <img src="https://i.imgur.com/AXCIeQN.png"  height="65%" width="65%" alt="read-only permissions"/>
  </p>
