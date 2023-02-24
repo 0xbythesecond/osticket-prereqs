@@ -42,13 +42,13 @@ First, we will need connect to our Virtual Machine with Remote Desktop using the
 
 <br/>
 <p>
-Next, Install Web Platform Installer by doing a search for the Control Panel --> under programs select 'Uninstall a Program'.
+Next, Install Web Platform Installer by doing a search for the Control Panel --> under programs select '`Uninstall a Program`'.
 </p>
 <p align="center">
 <img src="https://i.imgur.com/YlZlw6C.png" height="80%" width="80%" alt="unistall a program"/>
 </p>
 <br />
-<p>After we've reached the next page, we can now select to 'Turn Windows features on or off' --> then enable the 'Internet Information Services' (IIS) from the available services.</p>
+<p>After we've reached the next page, we can now select to '`Turn Windows features on or off`' --> then enable the 'Internet Information Services' (IIS) from the available services.</p>
 <p align="center">
 <img src="https://i.imgur.com/XYQQlpa.png" height="80%" width="80%" alt="enable IIS"/>
 </p>
@@ -84,7 +84,7 @@ Fix any failures in the installation by going to Google Drive to <a href="https:
 <img src="https://i.imgur.com/bbcdcJo.png" height=45% width="45%" alt="browse: 80"/>
     </p> 
     </br>
-    <p>Once browse: 80 is selected a browser window will open presenting osTicket installer page along with the recommendation/prerequisites of use.
+    <p>Once `browse: 80` is selected a browser window will open presenting osTicket installer page along with the recommendation/prerequisites of use.
     </p>
     <p align="center">
     <img src="https://i.imgur.com/wcCxx5C.png" height="45%" width="45%" alt="os ticket installer"/>
@@ -116,7 +116,7 @@ Rename: From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php --->	To: 
  </p>
 <hr>
 Assign Permissions: ost-config.php 
- To change the permissions, right-click ost-config --> select properties --> select the 'Security' tab at the top --> select the 'Advanced' button1. Disable inheritance -> Remove All 2. New Permissions -> Everyone -> All
+ To change the permissions, right-click ost-config --> select `properties` --> select the '`Security`' tab at the top --> select the '`Advanced`' button1. Disable inheritance -> Remove All 2. New Permissions -> Everyone -> All
  <p align="center">
  <img src="https://i.imgur.com/Ds8JUvt.png" height="50%" width="50%" alt="properties selection"/>
  </p>
@@ -188,7 +188,7 @@ Then add new permissions for everyone and give Full Control.
   <p align="center">
  <img src="https://i.imgur.com/XGHz3lx.png" height="65%" width="65%" alt="delete setup folder"/>
  </p>
- <p> Set Permission to "Read" only can be acheived by choosing to right-click on 'ost-config.php' --> select properties --> select the 'Security' tab near the top --> then click the 'Advanced' button (not pictured below) --> once advanced settings is selected, you can now select the 'Everyone' principle and now we can select to choose 'Read' only as the preferred permission(s)</p>
+ <p> Set Permission to "Read" only can be acheived by choosing to right-click on 'ost-config.php' --> select `properties` --> select the '`Security`' tab near the top --> then click the 'Advanced' button (not pictured below) --> once `advanced settings` is selected, you can now select the '`Everyone`' principle and now we can select to choose '`Read`' only as the preferred permission(s)</p>
  <p align="center">
  <img src="https://i.imgur.com/AXCIeQN.png"  height="65%" width="65%" alt="read-only permissions"/>
  </p>
