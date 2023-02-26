@@ -27,28 +27,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Change File Permissions
 
 <h2>Installation Steps</h2>
-<p>
-First, we will need connect to our Virtual Machine with Remote Desktop using the VM's public IP address. 
-</p>
+
+   >**Note**: Create a Windows 10 Virtual Machine with 2 or 4 virtual CPUS to ensure that you are not troubled throughout the lab.
+Allow the VM to create a new Vnet which should be done by default.
+
+We can do a quick search for `Virtual Machine` and as we create the virtual machine, we will have the option to create the Resource Group. Here we select `Create New` to name the name the Resource Group 'RG-osTicket' and build out the Virtual Machine (VM) with the provided settings pictured (below). 
+
+<p align="center"><img src="https://i.imgur.com/jz0e59n.png" height="70%" width="70%" alt="image of vm settings"/> </p>
+
+   >**Note**: Be sure to check the box recognizing 'I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.' or else you will receive a validation error message.
+    
+<p align="center">
+<img src="https://i.imgur.com/yFq2KcG.png" height="70%" width="70%" alt="image of vm username password"/> </p>
+
+We will need connect to our Virtual Machine with Remote Desktop using the VM's public IP address. 
+
 <p align="center">
 <img src="https://i.imgur.com/DGOWrS5.png" height="80%" width="80%" alt="image of public IP address"/>
 </p>
+
 <br />
-<p>To connect to the virtual machine, we search on the local machine for 'Remote Desktop Connection' and the following window opens and you can now copy and paste the public IP address into the provided space.
-</p>
+
+To connect to the virtual machine, we search on the local machine for 'Remote Desktop Connection' and the following window opens and you can now copy and paste the public IP address into the provided space.
+
+
 <p align="center">
 <img src="https://i.imgur.com/06af4yH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br/>
-<p>
-Next, Install Web Platform Installer by doing a search for the Control Panel --> under programs select '`Uninstall a Program`'.
-</p>
+
+Next, Install Web Platform Installer by doing a search for the Control Panel --> under programs select `Uninstall a Program`.
+
 <p align="center">
 <img src="https://i.imgur.com/YlZlw6C.png" height="80%" width="80%" alt="unistall a program"/>
 </p>
 <br />
-<p>After we've reached the next page, we can now select to '`Turn Windows features on or off`' --> then enable the 'Internet Information Services' (IIS) from the available services.</p>
+
+After we've reached the next page, we can now select to `Turn Windows features on or off` --> then enable the 'Internet Information Services' (IIS) from the available services.
+
 <p align="center">
 <img src="https://i.imgur.com/XYQQlpa.png" height="80%" width="80%" alt="enable IIS"/>
 </p>
