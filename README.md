@@ -111,7 +111,7 @@ Once `browse: 80` is selected a browser window will open presenting osTicket ins
     </p>
     </br>
     
-Next we'll go back to IIS, sites -> Default -> osTicket 2. Double-click PHP Manager 3. Click `Enable or disable an extension` 1. Enable: php_imap.dll 2. Enable: php_intl.dll 3. Enable: php_opcache.dll -
+Next we'll go back to IIS, sites -> Default -> 1. `osTicket` 2. Double-click `PHP Manager` 3. Click `Enable or disable an extension` 1. Enable: `php_imap.dll` 2. Enable: `php_intl.dll` 3. Enable: `php_opcache.dll` -
 
  <p align="center"<img src="https://i.imgur.com/YVjKOMp.png" height="50%" width="50%" alt="php manager"/>
  </p>
