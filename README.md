@@ -173,7 +173,8 @@ Download and install HeidiSQL from <a href="https://drive.google.com/drive/folde
  <hr>
 <p align="center">
  <img src="https://i.imgur.com/oImw5w0.png" height="50%" width="50%" alt="completion of heidisql install"/>
- Next we will do the following in HeidiSql:
+
+Next we will do the following in HeidiSql:
 <ol>
  <li>Create a new session, username:root/password:Password1</li>
  <li>Connect to the session</li>
